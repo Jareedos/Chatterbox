@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		96E2680753B05EF50D596B96 /* Pods_chatterbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D2FFACD6E05A707FC0E1B7 /* Pods_chatterbox.framework */; };
+		BF88E09E1D21ECBC00AE6137 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */; };
+		BF88E09F1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */; };
+		BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */; };
+		BF88E0A11D21ECBC00AE6137 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09D1D21ECBC00AE6137 /* NotoSans-Regular.ttf */; };
 		BFEA3B031D219AB7002FBA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA3B021D219AB7002FBA06 /* AppDelegate.swift */; };
 		BFEA3B051D219AB7002FBA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA3B041D219AB7002FBA06 /* ViewController.swift */; };
 		BFEA3B081D219AB7002FBA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEA3B061D219AB7002FBA06 /* Main.storyboard */; };
@@ -20,6 +24,10 @@
 		3B5D008095FF14AE5467C47A /* Pods-chatterbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatterbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatterbox/Pods-chatterbox.release.xcconfig"; sourceTree = "<group>"; };
 		48D2FFACD6E05A707FC0E1B7 /* Pods_chatterbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatterbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCC00DD478C62F652740038 /* Pods-chatterbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatterbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatterbox/Pods-chatterbox.debug.xcconfig"; sourceTree = "<group>"; };
+		BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		BF88E09D1D21ECBC00AE6137 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		BFEA3AFF1D219AB7002FBA06 /* chatterbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatterbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEA3B021D219AB7002FBA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFEA3B041D219AB7002FBA06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,10 @@
 		BF88E0991D21EC5500AE6137 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */,
+				BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */,
+				BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */,
+				BF88E09D1D21ECBC00AE6137 /* NotoSans-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -185,9 +197,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF88E09F1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf in Resources */,
 				BFEA3B0D1D219AB7002FBA06 /* LaunchScreen.storyboard in Resources */,
 				BFEA3B151D219C29002FBA06 /* GoogleService-Info.plist in Resources */,
 				BFEA3B0A1D219AB7002FBA06 /* Assets.xcassets in Resources */,
+				BF88E0A11D21ECBC00AE6137 /* NotoSans-Regular.ttf in Resources */,
+				BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */,
+				BF88E09E1D21ECBC00AE6137 /* NotoSans-Bold.ttf in Resources */,
 				BFEA3B081D219AB7002FBA06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
