@@ -12,6 +12,7 @@
 		BF88E09F1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */; };
 		BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */; };
 		BF88E0A11D21ECBC00AE6137 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09D1D21ECBC00AE6137 /* NotoSans-Regular.ttf */; };
+		BF88E0A31D21EF3C00AE6137 /* beyond_the_mountains.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E0A21D21EF3C00AE6137 /* beyond_the_mountains.ttf */; };
 		BFEA3B031D219AB7002FBA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA3B021D219AB7002FBA06 /* AppDelegate.swift */; };
 		BFEA3B051D219AB7002FBA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA3B041D219AB7002FBA06 /* ViewController.swift */; };
 		BFEA3B081D219AB7002FBA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEA3B061D219AB7002FBA06 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		BF88E09D1D21ECBC00AE6137 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		BF88E0A21D21EF3C00AE6137 /* beyond_the_mountains.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beyond_the_mountains.ttf; sourceTree = "<group>"; };
 		BFEA3AFF1D219AB7002FBA06 /* chatterbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatterbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEA3B021D219AB7002FBA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFEA3B041D219AB7002FBA06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		BF88E0991D21EC5500AE6137 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF88E0A21D21EF3C00AE6137 /* beyond_the_mountains.ttf */,
 				BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */,
 				BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */,
 				BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */,
@@ -202,6 +205,7 @@
 				BFEA3B151D219C29002FBA06 /* GoogleService-Info.plist in Resources */,
 				BFEA3B0A1D219AB7002FBA06 /* Assets.xcassets in Resources */,
 				BF88E0A11D21ECBC00AE6137 /* NotoSans-Regular.ttf in Resources */,
+				BF88E0A31D21EF3C00AE6137 /* beyond_the_mountains.ttf in Resources */,
 				BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */,
 				BF88E09E1D21ECBC00AE6137 /* NotoSans-Bold.ttf in Resources */,
 				BFEA3B081D219AB7002FBA06 /* Main.storyboard in Resources */,
