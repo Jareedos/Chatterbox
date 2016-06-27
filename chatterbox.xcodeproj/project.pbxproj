@@ -50,6 +50,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF88E0961D21EC3B00AE6137 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BF88E0971D21EC4300AE6137 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BF88E0981D21EC4A00AE6137 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BF88E0991D21EC5500AE6137 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BFEA3AF61D219AB7002FBA06 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +99,10 @@
 		BFEA3B011D219AB7002FBA06 /* chatterbox */ = {
 			isa = PBXGroup;
 			children = (
+				BF88E0991D21EC5500AE6137 /* Resources */,
+				BF88E0981D21EC4A00AE6137 /* Model */,
+				BF88E0971D21EC4300AE6137 /* View */,
+				BF88E0961D21EC3B00AE6137 /* Controller */,
 				BFEA3B021D219AB7002FBA06 /* AppDelegate.swift */,
 				BFEA3B041D219AB7002FBA06 /* ViewController.swift */,
 				BFEA3B061D219AB7002FBA06 /* Main.storyboard */,
