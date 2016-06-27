@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F7BFF0F84BEF5A9FEA9999CC2555D22DE7521B09",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F7BFF0F84BEF5A9FEA9999CC2555D22DE7521B09" : 0,
+    "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "37639F36-30BB-4C4F-A681-00E02154CF49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F7BFF0F84BEF5A9FEA9999CC2555D22DE7521B09" : "chatterbox\/",
+    "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "chatterbox",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "chatterbox.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jareedos\/myCity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0C04B1B2A58587B0BBCB0A549E7CDFE42E87364"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jareedos\/Chatterbox.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7BFF0F84BEF5A9FEA9999CC2555D22DE7521B09"
+    }
+  ]
+}
