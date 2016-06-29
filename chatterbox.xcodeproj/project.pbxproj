@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		96E2680753B05EF50D596B96 /* Pods_chatterbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D2FFACD6E05A707FC0E1B7 /* Pods_chatterbox.framework */; };
+		BF154D3A1D246C1800C82526 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF154D391D246C1800C82526 /* MaterialView.swift */; };
+		BF154D3D1D246C7200C82526 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF154D3C1D246C7200C82526 /* Constants.swift */; };
 		BF88E09E1D21ECBC00AE6137 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */; };
 		BF88E09F1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */; };
 		BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */; };
@@ -25,6 +27,8 @@
 		3B5D008095FF14AE5467C47A /* Pods-chatterbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatterbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-chatterbox/Pods-chatterbox.release.xcconfig"; sourceTree = "<group>"; };
 		48D2FFACD6E05A707FC0E1B7 /* Pods_chatterbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_chatterbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCC00DD478C62F652740038 /* Pods-chatterbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatterbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-chatterbox/Pods-chatterbox.debug.xcconfig"; sourceTree = "<group>"; };
+		BF154D391D246C1800C82526 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		BF154D3C1D246C7200C82526 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -60,9 +64,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF154D3B1D246C4E00C82526 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BF154D3C1D246C7200C82526 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		BF88E0961D21EC3B00AE6137 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA3B041D219AB7002FBA06 /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -70,6 +83,8 @@
 		BF88E0971D21EC4300AE6137 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA3B061D219AB7002FBA06 /* Main.storyboard */,
+				BF154D391D246C1800C82526 /* MaterialView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -114,13 +129,12 @@
 		BFEA3B011D219AB7002FBA06 /* chatterbox */ = {
 			isa = PBXGroup;
 			children = (
+				BF154D3B1D246C4E00C82526 /* Util */,
 				BF88E0991D21EC5500AE6137 /* Resources */,
 				BF88E0981D21EC4A00AE6137 /* Model */,
 				BF88E0971D21EC4300AE6137 /* View */,
 				BF88E0961D21EC3B00AE6137 /* Controller */,
 				BFEA3B021D219AB7002FBA06 /* AppDelegate.swift */,
-				BFEA3B041D219AB7002FBA06 /* ViewController.swift */,
-				BFEA3B061D219AB7002FBA06 /* Main.storyboard */,
 				BFEA3B091D219AB7002FBA06 /* Assets.xcassets */,
 				BFEA3B0B1D219AB7002FBA06 /* LaunchScreen.storyboard */,
 				BFEA3B0E1D219AB7002FBA06 /* Info.plist */,
@@ -267,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF154D3A1D246C1800C82526 /* MaterialView.swift in Sources */,
 				BFEA3B051D219AB7002FBA06 /* ViewController.swift in Sources */,
 				BFEA3B031D219AB7002FBA06 /* AppDelegate.swift in Sources */,
+				BF154D3D1D246C7200C82526 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
