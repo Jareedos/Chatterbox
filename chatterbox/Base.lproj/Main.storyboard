@@ -26,7 +26,7 @@
                                     <constraint firstAttribute="height" constant="128" id="qwQ-2d-JXc"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQb-UQ-aVF">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQb-UQ-aVF" customClass="MaterialView" customModule="chatterbox" customModuleProvider="target">
                                 <rect key="frame" x="20" y="79" width="560" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
