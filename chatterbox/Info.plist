@@ -43,5 +43,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NotoSans-Bold.ttf</string>
+		<string>NotoSans-BoldItalic.ttf</string>
+		<string>NotoSans-Italic.ttf</string>
+		<string>NotoSans-Regular.ttf</string>
+		<string>beyond_the_mountains.ttf</string>
+	</array>
 </dict>
 </plist>
