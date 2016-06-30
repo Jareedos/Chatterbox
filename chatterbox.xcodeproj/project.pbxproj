@@ -12,6 +12,9 @@
 		BF154D3D1D246C7200C82526 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF154D3C1D246C7200C82526 /* Constants.swift */; };
 		BF154D3F1D24761800C82526 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF154D3E1D24761800C82526 /* MaterialButton.swift */; };
 		BF154D411D2479EB00C82526 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF154D401D2479EB00C82526 /* MaterialTextField.swift */; };
+		BF154D451D25B5D600C82526 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF154D421D25B5D600C82526 /* Bolts.framework */; };
+		BF154D461D25B5D600C82526 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF154D431D25B5D600C82526 /* FBSDKCoreKit.framework */; };
+		BF154D471D25B5D600C82526 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF154D441D25B5D600C82526 /* FBSDKLoginKit.framework */; };
 		BF88E09E1D21ECBC00AE6137 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */; };
 		BF88E09F1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */; };
 		BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */; };
@@ -33,6 +36,9 @@
 		BF154D3C1D246C7200C82526 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BF154D3E1D24761800C82526 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		BF154D401D2479EB00C82526 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		BF154D421D25B5D600C82526 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BF154D431D25B5D600C82526 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		BF154D441D25B5D600C82526 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E2680753B05EF50D596B96 /* Pods_chatterbox.framework in Frameworks */,
+				BF154D461D25B5D600C82526 /* FBSDKCoreKit.framework in Frameworks */,
+				BF154D471D25B5D600C82526 /* FBSDKLoginKit.framework in Frameworks */,
+				BF154D451D25B5D600C82526 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				48D2FFACD6E05A707FC0E1B7 /* Pods_chatterbox.framework */,
+				BF154D421D25B5D600C82526 /* Bolts.framework */,
+				BF154D431D25B5D600C82526 /* FBSDKCoreKit.framework */,
+				BF154D441D25B5D600C82526 /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -408,6 +420,10 @@
 			baseConfigurationReference = BBCC00DD478C62F652740038 /* Pods-chatterbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = chatterbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JaredSobol.chatterbox;
@@ -420,6 +436,10 @@
 			baseConfigurationReference = 3B5D008095FF14AE5467C47A /* Pods-chatterbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = chatterbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JaredSobol.chatterbox;
