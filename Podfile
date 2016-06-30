@@ -6,5 +6,6 @@ target 'chatterbox' do
   use_frameworks!
 
   pod 'Firebase'
+  pod 'Firebase/Auth'
 
 end
