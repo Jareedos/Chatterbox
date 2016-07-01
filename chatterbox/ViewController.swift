@@ -35,6 +35,8 @@ class ViewController: UIViewController {
                 let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
                 print("Successfully logged in with facebook. \(accessToken)")
                 
+                DataService.ds.REF_BASE.aut
+                
                 
             }
             
