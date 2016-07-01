@@ -15,6 +15,7 @@
 		BF154D451D25B5D600C82526 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF154D421D25B5D600C82526 /* Bolts.framework */; };
 		BF154D461D25B5D600C82526 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF154D431D25B5D600C82526 /* FBSDKCoreKit.framework */; };
 		BF154D471D25B5D600C82526 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF154D441D25B5D600C82526 /* FBSDKLoginKit.framework */; };
+		BF154D4B1D26E9E700C82526 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF154D4A1D26E9E700C82526 /* DataService.swift */; };
 		BF88E09E1D21ECBC00AE6137 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */; };
 		BF88E09F1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */; };
 		BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */; };
@@ -39,6 +40,7 @@
 		BF154D421D25B5D600C82526 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		BF154D431D25B5D600C82526 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		BF154D441D25B5D600C82526 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		BF154D4A1D26E9E700C82526 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 				BF154D3C1D246C7200C82526 /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		BF154D491D26E90E00C82526 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BF154D4A1D26E9E700C82526 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		BF88E0961D21EC3B00AE6137 /* Controller */ = {
@@ -147,6 +157,7 @@
 		BFEA3B011D219AB7002FBA06 /* chatterbox */ = {
 			isa = PBXGroup;
 			children = (
+				BF154D491D26E90E00C82526 /* Services */,
 				BF154D3B1D246C4E00C82526 /* Util */,
 				BF88E0991D21EC5500AE6137 /* Resources */,
 				BF88E0981D21EC4A00AE6137 /* Model */,
@@ -300,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF154D411D2479EB00C82526 /* MaterialTextField.swift in Sources */,
+				BF154D4B1D26E9E700C82526 /* DataService.swift in Sources */,
 				BF154D3A1D246C1800C82526 /* MaterialView.swift in Sources */,
 				BFEA3B051D219AB7002FBA06 /* ViewController.swift in Sources */,
 				BFEA3B031D219AB7002FBA06 /* AppDelegate.swift in Sources */,
