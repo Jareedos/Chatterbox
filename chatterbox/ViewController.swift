@@ -11,6 +11,7 @@ import UIKit
 import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
+import Firebase
 
 class ViewController: UIViewController {
     
@@ -35,13 +36,32 @@ class ViewController: UIViewController {
                 let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
                 print("Successfully logged in with facebook. \(accessToken)")
                 
-                DataService.ds.REF_BASE.aut
+                let credential = FIRFacebookAuthProvider.credentialWithAccessToken(FBSDKAccessToken.currentAccessToken().tokenString)
                 
-                
-            }
+                FIRAuth.auth()?.signInWithCredential(credential, completion: { (user, error ) in
+                    
+                    if error != nil {
+                        print("Login failed. \(error)")
+                    } else {
+                        print("Logged in. \(user)")
+                        
+                        let userData = ["provider": credential.provider]
+                        DataService.ds.createFirebaseUser(user!.uid, user: userData)
+                        
+                        NSUserDefaults.standardUserDefaults().setValue(user!.uid, forKey: KEY_UID)
+                        self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                    }
+                    
+            
+                })
+           
+           }
             
         }
+        
     }
+    
+    
     
     
 }
