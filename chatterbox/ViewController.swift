@@ -70,9 +70,38 @@ class ViewController: UIViewController {
     @IBAction func attemptLogin(sender: UIButton!) {
         if let email = emailField.text where email != "", let pwd = passwordField.text where pwd != "" {
             
-        } else {
+            FIRAuth.auth()?.signInWithEmail(email, password: pwd, completion: {(user, error) in
+                
+                if error != nil {
+                    print(error)
+                    
+                    if error!.code == STATUS_ACCOUNT_NONEXIST {
+                        FIRAuth.auth()?.createUserWithEmail(email, password: pwd, completion: { (user, error) in
+                            if error != nil {
+                                self.showErrorAlert("Could Not Create Account", msg: "Problem creating the account. Try something else")
+                            } else {
+                                NSUserDefaults.standardUserDefaults().setValue(user!.uid, forKey: KEY_UID)
+                                
+                                    let userData = ["provider": "email"]
+                                    DataService.ds.createFirebaseUser(user!.uid, user: userData)
+                                
+                                self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                                
+                            }
+                        })
+                    } else {
+                        self.showErrorAlert("Could Not Log In", msg: "Please check your Username or Password")
+                    }
+                } else {
+                    self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                }
+                
+            })
+            
+            
+            } else {
             showErrorAlert("Email and Password Required", msg: "Your must enter an Email and Password")
-        }
+            }
         
     }
     
