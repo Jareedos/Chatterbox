@@ -11,6 +11,7 @@
             <string>NotoSans-Bold</string>
             <string>NotoSans-Bold</string>
             <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
         </mutableArray>
         <mutableArray key="NotoSans-Regular.ttf">
             <string>NotoSans</string>
@@ -221,7 +222,51 @@
                     <view key="view" contentMode="scaleToFill" id="7TQ-Ei-Fkh">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="330" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xkh-kV-EJF">
+                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="330" id="xfc-XT-hsF">
+                                        <rect key="frame" x="0.0" y="92" width="560" height="330"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xfc-XT-hsF" id="Z9g-Ui-Wq9">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="329.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NoT-86-SJY" userLabel="ContainerView">
+                                                    <rect key="frame" x="0.0" y="14" width="560" height="298"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5HI-6c-kVy">
+                                                            <rect key="frame" x="8" y="8" width="66" height="58"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DemonSlayer20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kR-xJ-ead">
+                                                            <rect key="frame" x="82" y="8" width="137" height="58"/>
+                                                            <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
+                                                            <color key="textColor" red="0.95686274510000002" green="0.31764705879999999" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="NoT-86-SJY" firstAttribute="top" secondItem="Z9g-Ui-Wq9" secondAttribute="topMargin" id="eKs-Va-fbk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="NoT-86-SJY" secondAttribute="bottom" id="f7Z-6n-o4G"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.63909578349999996" blue="0.13538573870000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xkh-kV-EJF" firstAttribute="top" secondItem="lTe-Z9-41b" secondAttribute="bottom" id="RKF-Cu-Wly"/>
+                            <constraint firstItem="xkh-kV-EJF" firstAttribute="trailing" secondItem="7TQ-Ei-Fkh" secondAttribute="trailingMargin" id="RLR-nl-pOg"/>
+                            <constraint firstItem="yow-96-4cw" firstAttribute="top" secondItem="xkh-kV-EJF" secondAttribute="bottom" id="gna-N6-FTc"/>
+                            <constraint firstItem="xkh-kV-EJF" firstAttribute="leading" secondItem="7TQ-Ei-Fkh" secondAttribute="leadingMargin" id="iP2-f8-jPq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8Bi-1B-kMd"/>
                 </viewController>
