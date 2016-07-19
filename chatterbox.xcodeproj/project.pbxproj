@@ -18,6 +18,7 @@
 		BF154D471D25B5D600C82526 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF154D441D25B5D600C82526 /* FBSDKLoginKit.framework */; };
 		BF154D4B1D26E9E700C82526 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF154D4A1D26E9E700C82526 /* DataService.swift */; };
 		BF2A055D1D3EAB1D00397E42 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A055C1D3EAB1D00397E42 /* FeedVC.swift */; };
+		BF2A055F1D3EAD2800397E42 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2A055E1D3EAD2800397E42 /* PostCell.swift */; };
 		BF88E09E1D21ECBC00AE6137 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */; };
 		BF88E09F1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */; };
 		BF88E0A01D21ECBC00AE6137 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */; };
@@ -44,6 +45,7 @@
 		BF154D441D25B5D600C82526 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		BF154D4A1D26E9E700C82526 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BF2A055C1D3EAB1D00397E42 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		BF2A055E1D3EAD2800397E42 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		BF88E09A1D21ECBC00AE6137 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		BF88E09B1D21ECBC00AE6137 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		BF88E09C1D21ECBC00AE6137 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				BF154D391D246C1800C82526 /* MaterialView.swift */,
 				BF154D3E1D24761800C82526 /* MaterialButton.swift */,
 				BF154D401D2479EB00C82526 /* MaterialTextField.swift */,
+				BF2A055E1D3EAD2800397E42 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				BF154D3A1D246C1800C82526 /* MaterialView.swift in Sources */,
 				BFEA3B051D219AB7002FBA06 /* ViewController.swift in Sources */,
 				BF2A055D1D3EAB1D00397E42 /* FeedVC.swift in Sources */,
+				BF2A055F1D3EAD2800397E42 /* PostCell.swift in Sources */,
 				BFEA3B031D219AB7002FBA06 /* AppDelegate.swift in Sources */,
 				BF154D3D1D246C7200C82526 /* Constants.swift in Sources */,
 				BF154D3F1D24761800C82526 /* MaterialButton.swift in Sources */,
